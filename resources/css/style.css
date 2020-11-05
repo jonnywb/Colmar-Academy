@@ -1,0 +1,344 @@
+/********* GLOBAL **********/
+
+a, p, h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+/***** HEADER / NAV *******/
+
+header {
+    /*position: fixed;
+    top: 0;*/
+    box-sizing: border-box;
+    
+    min-width: 100%;
+
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+header .content {
+    max-width: 1800px;
+    margin: 0 auto;
+    height: 64px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px;
+}
+
+header :visited {
+    color: black;
+}
+
+header .logo {
+    text-decoration: none;
+}
+
+header .logo:hover {
+    text-decoration: none;
+    background-color: #f3f5f5;
+}
+
+header .logo span {
+    color: #555555;
+    font-weight: 400;
+}
+
+header nav ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 40px;
+    font-size: 1.5rem;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+header nav ul li a:hover {
+    color: #2063d2;
+}
+
+
+/***** Mobile Nav / Logos****/
+
+.ic-logo {
+    background-image: url(../img/ic-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px 24px;
+}
+.ic-campus {
+    background-image: url(../img/ic-on-campus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px 24px;
+}
+.ic-online {
+    background-image: url(../img/ic-online.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px 24px;
+}
+.ic-login {
+    background-image: url(../img/ic-login.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 10px 24px;
+}
+
+/******* Global Containers / Text *******/
+
+.container {
+    background-color: #f3f5f5;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1800px;
+    padding: 32px 24px;
+}
+
+.left {
+    text-align: right;
+    flex-basis: 60%;
+    margin-right: 12px;
+}
+
+.right {
+    text-align: left;
+    flex-basis: 38%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.start, .learn, .highlight{
+    background-color: #d8d8d8;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #555555;
+}
+
+h2 {
+    font-size: 2.3rem;
+    color: #555555;
+}
+
+.block {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.infoBox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+
+    border: 1px solid #d8d8d8;
+}
+
+.infoBox .innerR {
+    margin-left: 24px;
+    margin-top: 5%;
+}
+
+.infoBox .innerL {
+    text-align: right;
+}
+
+.infoBox h3 {
+    font-size: 1.75rem;
+    color: #555555;
+}
+
+.infoimg {
+    max-height: 250px;
+    margin: 24px;
+}
+
+.textBox {
+    text-align: left;
+    max-width:100%;
+    max-height:100%;
+}
+
+.textBox h1 {
+    font-size: 2.8rem;
+}
+
+.textBox .quote {
+    color: #555555;
+    font-size: 1.5rem;
+}
+
+/******** Start Section **********/
+
+
+.start .left .banner {
+    max-width:100%;
+    max-height:100%;
+}
+
+.startHere {
+    background-color: #555555;
+    color: white;
+    padding: 8px;
+    min-height: 80px;
+    font-size: 1.8em;
+}
+
+.startHere:hover {
+    background-color: #2063d2; 
+}
+
+.startHere:active {
+    background-color: #444; 
+}
+
+
+/******** Practice Section **********/
+
+.practice .left .banner {
+    max-width:100%;
+    max-height:100%;
+}
+
+/******** Learn Section **********/
+
+.learnBox {
+    flex-basis: 29%;
+    text-align: left;
+    background-color: white;
+    margin: 0 2rem;
+    margin: 30px;
+    padding: 0;
+    color: #555555;
+}
+
+.learnBox img {
+    width: 100%;
+}
+
+.learnBox h3 {
+    margin: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.learnBox p {
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 1.5rem;
+}
+
+/******** Thesis Section **********/
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/******** Footer Section **********/
+
+footer {
+    max-width: 1800px;
+    margin: 0 auto;
+    height: 64px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px;
+}
+
+.footer-nav {
+    display: inline-flex;
+}
+
+.footer-nav li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1270px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .nav1 {
+        display: none;
+    }
+
+    header .content {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .learnBox {
+    background-color: #d8d8d8;
+    }
+
+
+    .start, .learn, .highlight{
+        background-color: #f3f5f5;
+    }
+    .learnBox p {
+        display: none;
+    }
+
+    .learnBox img {
+        display: none;
+    }
+
+    .practice .left {
+        display: none;
+    } 
+
+    .logo {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        height: 64px;
+        width: 100%;
+    }
+    
+    .mobile-nav li {
+        
+        min-width: 16%;
+    }
+}
