@@ -10,10 +10,7 @@ header {
     /*position: fixed;
     top: 0;*/
     box-sizing: border-box;
-    
     min-width: 100%;
-
-    color: black;
     font-size: 32px;
     font-weight: 600;
 }
