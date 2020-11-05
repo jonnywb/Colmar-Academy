@@ -36,6 +36,7 @@ header :visited {
 }
 
 header .logo {
+    color: #fff;
     text-decoration: none;
 }
 
